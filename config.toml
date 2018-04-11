@@ -1,0 +1,214 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "My Awesome Title"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Personal Science"
+  description = "Explore with us"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "technology"
+    title = "Technology"
+    subtitle = "AI needs people"
+    description = "<p>Imagine a world where anyone can be a scientist.</p><ul class='checked'><li>Experiments</li><li>Peer Review</li><li>Publishing</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Resources"
+    subtitle = "Backed by smart people and smart machines"
+    description = "<p>What's all that data for if you can't analyze it?</p><ul class='checked'><li>Powerful GPUs</li><li>State-of-the-art algorithms</li><li>PhD Data Scientists</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Solutions"
+    subtitle = "Try what works."
+    description = "<p>Everyone knows something. What if you could share it quantitatively?</p><ul class='checked'><li>Raw data</li><li>Easy sharing</li><li>Powerful analysis</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Promise"
+  description = "Context is everything."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Reference Ranges"
+    description = "Personal isn't personal unless you know what matters to _you_."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Watch"
+    description = "Stay on top of the latest research. Automatically."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Experiment"
+    description = "Think of new ideas. Try and discuss with others. Repeat."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Share"
+    description = "Share what you learn with people like you."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Fast"
+    description = "Try your idea now."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Support"
+    description = "You're not alone."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Everything is personal."
+
+  [[params.team.item]]
+    name = "?"
+    position = "Co-Founder 1"
+    description = "Purdue. Successful Startups. Athlete."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "?"
+    position = "Co-Founder 2"
+    description = "Stanford. Apple Japan. Genomics."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "?"
+    position = "Co-Founder 3"
+    description = "China. Microsoft. Databases. AI."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "?"
+    position = "Co-Founder 4"
+    description = "Purdue. Startups. React."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"  
+    
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Find out what we're up to before we do"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
+  
