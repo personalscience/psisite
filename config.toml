@@ -1,8 +1,8 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
+baseURL = "https://personalscience.com/"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "Personal Science"
 
 # Metadata
 [params]
