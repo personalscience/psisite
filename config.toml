@@ -1,19 +1,19 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
 baseURL = "https://personalscience.com/"
-languageCode = "en-AU"
+languageCode = "en-US"
 title = "Personal Science"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Richard Sprague"
+  description = "Personal Science, Inc."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Personal Science"
-  description = "Explore with us"
+  description = "![](psi-symbol.png)"
 
 # Navigation section
 [params.nav]
@@ -104,43 +104,43 @@ title = "Personal Science"
   enable = true
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Firmicutes"
+    subtitle = "55%"
     img = "images/img_1.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Bacteroidetes"
+    subtitle = "30%"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Actinobacteria"
+    subtitle = "4%"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Verucomicrobia"
+    subtitle = "4%"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Proteobacteria"
+    subtitle = "1%"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Fusobacteria"
+    subtitle = "0%"
     img = "images/img_2.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Other"
+    subtitle = "0%"
     img = "images/img_3.jpg"
 
   [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
+    title = "Unknown"
+    subtitle = "0%"
     img = "images/img_4.jpg"
 
 # Team section
